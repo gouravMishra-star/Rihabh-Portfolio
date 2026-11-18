@@ -43,13 +43,13 @@ export default function ContactSection() {
 
           <div className="relative z-10 grid lg:grid-cols-12 gap-12 items-end">
             <div className="lg:col-span-8">
-              <span className="font-timecode text-xs uppercase tracking-[0.26em] text-cyan-300 block mb-5">
+              <span className="font-timecode text-[11px] uppercase tracking-[0.22em] text-cyan-300/80 block mb-4">
                 05 / Contact
               </span>
 
-              <h2 className="font-display text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[0.98] mb-6">
-                Have a project in mind?{" "}
-                <span className="bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-[-0.03em] text-white leading-[1.1] mb-5">
+                Have a project in mind?
+                <span className="block text-white/50">
                   Let&apos;s collaborate.
                 </span>
               </h2>

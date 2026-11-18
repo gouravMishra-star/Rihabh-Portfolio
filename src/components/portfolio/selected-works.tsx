@@ -70,7 +70,7 @@ export default function SelectedWorks({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.5 }}
-              className="font-timecode text-xs uppercase tracking-[0.26em] text-cyan-300 block mb-3"
+              className="font-timecode text-[11px] uppercase tracking-[0.22em] text-cyan-300/80 block mb-3"
             >
               01 / Selected Works
             </m.span>
@@ -79,7 +79,7 @@ export default function SelectedWorks({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-              className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent"
+              className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-[-0.03em] leading-[1.1] text-white"
             >
               Featured Projects
             </m.h2>

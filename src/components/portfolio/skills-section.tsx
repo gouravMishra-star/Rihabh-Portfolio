@@ -60,18 +60,19 @@ export default function SkillsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.5 }}
-              className="font-timecode text-xs uppercase tracking-[0.26em] text-cyan-300 block mb-3"
+              className="font-timecode text-[11px] uppercase tracking-[0.22em] text-cyan-300/80 block mb-3"
             >
-              03 / What I Can Do For You
+              03 / Capabilities
             </m.span>
             <m.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-              className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent"
+              className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-[-0.03em] leading-[1.1] text-white"
             >
-              Capabilities &amp; Technical Skills
+              Capabilities{" "}
+              <span className="text-white/50">&amp; Skills</span>
             </m.h2>
           </div>
 
@@ -113,10 +114,10 @@ export default function SkillsSection() {
                         {String(idx + 1).padStart(2, "0")}
                       </span>
                       <h3
-                        className={`font-display text-2xl sm:text-3xl font-bold tracking-tight transition-all duration-300 ${
+                        className={`text-xl sm:text-2xl font-medium tracking-[-0.02em] transition-all duration-300 ${
                           isActive
-                            ? "text-white translate-x-1.5"
-                            : "text-white/55 group-hover:text-white/85"
+                            ? "text-white translate-x-1"
+                            : "text-white/50 group-hover:text-white/80"
                         }`}
                       >
                         {spec.title}
@@ -189,7 +190,7 @@ export default function SkillsSection() {
                 <span className="font-timecode text-[10px] uppercase tracking-[0.22em] text-cyan-300 block mb-1.5">
                   Service {String(activeIndex + 1).padStart(2, "0")} / 06
                 </span>
-                <div className="font-display text-2xl font-bold text-white mb-1">
+                <div className="text-xl font-semibold tracking-[-0.02em] text-white mb-1">
                   {activeSpec.title}
                 </div>
                 <p className="font-timecode text-[11px] text-gray-300">
@@ -240,7 +241,7 @@ export default function SkillsSection() {
                     </span>
                   )}
                 </div>
-                <h3 className="font-display text-base font-bold text-white mb-1.5 group-hover:text-cyan-200 transition-colors">
+                <h3 className="text-sm font-semibold tracking-[-0.01em] text-white mb-1.5 group-hover:text-cyan-200 transition-colors">
                   {tool.name}
                 </h3>
                 <p className="text-xs text-gray-400 leading-relaxed font-light">

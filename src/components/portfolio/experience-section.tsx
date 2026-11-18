@@ -55,29 +55,29 @@ export default function ExperienceSection({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.5 }}
-              className="font-timecode text-xs uppercase tracking-[0.26em] text-cyan-300 block mb-3"
+              className="font-timecode text-[11px] uppercase tracking-[0.22em] text-cyan-300/80 block mb-3"
             >
-              04 / Experience &amp; Focus
+              04 / Experience
             </m.span>
             <m.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-              className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent"
+              className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-[-0.03em] leading-[1.1] text-white"
             >
               Production Background
             </m.h2>
           </div>
 
-          <div className="flex flex-wrap gap-8 sm:gap-12">
+          <div className="flex flex-wrap sm:flex-nowrap items-baseline gap-8 sm:gap-10 shrink-0">
             {[
               { value: `${projects.length}`, label: "Featured Reels" },
               { value: "2D · 3D · AI", label: "Core Disciplines" },
               { value: "10", label: "Studio Tools" },
             ].map((stat) => (
               <div key={stat.label}>
-                <div className="font-display text-2xl sm:text-3xl font-extrabold text-white">
+                <div className="text-2xl sm:text-[1.75rem] font-semibold tracking-[-0.02em] text-white whitespace-nowrap">
                   {stat.value}
                 </div>
                 <div className="font-timecode text-[10px] uppercase tracking-[0.18em] text-gray-500 mt-1">
@@ -107,7 +107,7 @@ export default function ExperienceSection({
                 <span className="font-timecode text-xs text-cyan-300/80">
                   {item.index}
                 </span>
-                <h3 className="font-display text-lg sm:text-xl font-bold text-white group-hover:text-cyan-200 transition-colors">
+                <h3 className="text-base sm:text-lg font-medium tracking-[-0.015em] text-white group-hover:text-cyan-200 transition-colors">
                   {item.area}
                 </h3>
               </div>
@@ -141,7 +141,7 @@ export default function ExperienceSection({
                 className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 transition-all duration-300 hover:border-cyan-300/25 hover:bg-white/[0.04]"
               >
                 <Icon size={22} className="text-cyan-300 mb-4" />
-                <h3 className="font-display text-lg font-bold text-white mb-2">
+                <h3 className="text-base font-semibold tracking-[-0.015em] text-white mb-2">
                   {item.title}
                 </h3>
                 <p className="text-xs sm:text-sm text-gray-400 leading-relaxed font-light">

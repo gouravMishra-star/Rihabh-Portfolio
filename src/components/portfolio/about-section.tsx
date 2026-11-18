@@ -48,7 +48,7 @@ export default function AboutSection() {
                 <span className="font-timecode text-[10px] uppercase tracking-[0.22em] text-cyan-300 block mb-1">
                   Rishabh Mishra
                 </span>
-                <span className="font-display text-xl sm:text-2xl font-bold text-white block">
+                <span className="text-lg sm:text-xl font-semibold tracking-[-0.02em] text-white block">
                   Motion Designer &amp; AI Visual Artist
                 </span>
               </div>
@@ -63,15 +63,13 @@ export default function AboutSection() {
             transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="lg:col-span-7 flex flex-col justify-center"
           >
-            <span className="font-timecode text-xs uppercase tracking-[0.26em] text-cyan-300 mb-4">
+            <span className="font-timecode text-[11px] uppercase tracking-[0.22em] text-cyan-300/80 mb-3">
               02 / About
             </span>
 
-            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.02] mb-7">
-              THE CREATIVE{" "}
-              <span className="bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent">
-                BEHIND THE FRAMES.
-              </span>
+            <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-[-0.03em] leading-[1.12] text-white mb-7">
+              The creative{" "}
+              <span className="text-white/50">behind the frames.</span>
             </h2>
 
             <div className="space-y-5 text-base sm:text-lg text-gray-300 font-light leading-relaxed mb-8 max-w-2xl">
