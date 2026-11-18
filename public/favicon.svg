@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="20%" r="85%">
+      <stop offset="0%" stop-color="#0b1729" />
+      <stop offset="60%" stop-color="#050914" />
+      <stop offset="100%" stop-color="#030408" />
+    </radialGradient>
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#93c5fd" stop-opacity="0.45" />
+    </linearGradient>
+    <linearGradient id="letterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="55%" stop-color="#cffafe" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Obsidian Rounded Tile -->
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)" stroke="url(#strokeGrad)" stroke-width="2" />
+
+  <!-- Subtle Horizontal Anamorphic Flare -->
+  <rect x="8" y="31" width="48" height="1.5" rx="0.75" fill="#38bdf8" opacity="0.22" />
+
+  <!-- Geometric Motion Designer "R" Monogram -->
+  <path
+    d="M19 47V17H34.5C41.2 17 45.5 20.6 45.5 26.5C45.5 31.1 42.7 34.4 38.1 35.5L46.2 47H37.8L30.8 36.4H26.4V47H19ZM26.4 30.3H33.9C36.8 30.3 38.4 28.9 38.4 26.5C38.4 24.1 36.8 22.8 33.9 22.8H26.4V30.3Z"
+    fill="url(#letterGrad)"
+  />
+
+  <!-- Motion Keyframe Diamond Accent -->
+  <rect
+    x="46.5"
+    y="14.5"
+    width="5.5"
+    height="5.5"
+    rx="1"
+    transform="rotate(45 49.25 17.25)"
+    fill="url(#accentGrad)"
+  />
+</svg>
