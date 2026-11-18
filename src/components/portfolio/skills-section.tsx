@@ -69,7 +69,7 @@ export default function SkillsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-              className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-[-0.03em] leading-[1.1] text-white"
+              className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-[-0.03em] leading-[1.08] text-white"
             >
               Capabilities{" "}
               <span className="text-white/50">&amp; Skills</span>
@@ -236,7 +236,7 @@ export default function SkillsSection() {
                       sizes="44px"
                     />
                   ) : (
-                    <span className="font-display text-sm font-extrabold tracking-tight bg-gradient-to-r from-cyan-200 to-blue-300 bg-clip-text text-transparent">
+                    <span className="text-sm font-bold tracking-tight text-cyan-200">
                       {tool.shortCode}
                     </span>
                   )}

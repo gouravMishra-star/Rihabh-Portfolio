@@ -47,7 +47,7 @@ export default function ContactSection() {
                 05 / Contact
               </span>
 
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-[-0.03em] text-white leading-[1.1] mb-5">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-[-0.03em] text-white leading-[1.08] mb-5">
                 Have a project in mind?
                 <span className="block text-white/50">
                   Let&apos;s collaborate.

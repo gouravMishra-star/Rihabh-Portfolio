@@ -87,10 +87,8 @@ export default function ContactPage() {
         >
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-cyan-400/15 blur-[100px] rounded-full pointer-events-none" />
 
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-black mt-0 md:mt-16 mb-6 text-white tracking-tight relative z-10">
-            <span className="bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent">
-              Get In Touch
-            </span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mt-0 md:mt-16 mb-6 text-white tracking-[-0.03em] leading-[1.08] relative z-10">
+            Get In <span className="text-white/50">Touch</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed relative z-10">
             Have a motion design, 2D/3D animation, or AI video project in mind?
@@ -107,7 +105,7 @@ export default function ContactPage() {
             className="space-y-8"
           >
             <GlassmorphismCard className="p-8">
-              <h3 className="font-display text-2xl font-semibold mb-6 text-white">
+              <h3 className="text-xl sm:text-2xl font-semibold tracking-[-0.02em] mb-6 text-white">
                 Connect Directly
               </h3>
               <div className="space-y-6">
@@ -168,7 +166,7 @@ export default function ContactPage() {
             </GlassmorphismCard>
 
             <GlassmorphismCard className="p-8">
-              <h3 className="font-display text-2xl font-semibold mb-6 text-white">
+              <h3 className="text-xl sm:text-2xl font-semibold tracking-[-0.02em] mb-6 text-white">
                 What I Can Do For You
               </h3>
               <div className="space-y-4">
@@ -205,7 +203,7 @@ export default function ContactPage() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <GlassmorphismCard className="p-8">
-              <h3 className="font-display text-2xl font-semibold mb-6 text-white">
+              <h3 className="text-xl sm:text-2xl font-semibold tracking-[-0.02em] mb-6 text-white">
                 Send Message
               </h3>
               <form className="space-y-6" onSubmit={handleSubmit}>

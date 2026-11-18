@@ -18,7 +18,7 @@ export default function NotFound() {
           className="w-full h-auto rounded-2xl object-contain mb-6"
           priority
         />
-        <h1 className="font-display text-2xl md:text-3xl font-semibold bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent mb-4">
+        <h1 className="text-2xl md:text-3xl font-bold tracking-[-0.025em] text-white mb-4">
           Oops! Page not found.
         </h1>
         <p className="text-gray-400 mb-6">

@@ -33,7 +33,7 @@ const CTASection = ({
             </span>
           </div>
 
-          <h3 className="font-display text-3xl sm:text-5xl font-extrabold bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent mb-5 tracking-tight leading-[1.06] max-w-2xl">
+          <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-5 tracking-[-0.03em] leading-[1.1] max-w-2xl">
             {title || "Ready to Work Together?"}
           </h3>
 

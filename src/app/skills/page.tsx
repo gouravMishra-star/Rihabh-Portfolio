@@ -49,10 +49,9 @@ export default function SkillsPage() {
         >
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-cyan-400/15 blur-[100px] rounded-full pointer-events-none" />
 
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-black mt-0 md:mt-16 mb-6 text-white tracking-tight relative z-10">
-            <span className="bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent">
-              Skills &amp; Technical Expertise
-            </span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mt-0 md:mt-16 mb-6 text-white tracking-[-0.03em] leading-[1.08] relative z-10">
+            Skills &amp;{" "}
+            <span className="text-white/50">Technical Expertise</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed relative z-10">
             Combining 2D/3D animation, visual effects, look development, and
@@ -67,7 +66,7 @@ export default function SkillsPage() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mb-16"
         >
-          <h2 className="font-display text-2xl md:text-3xl font-bold mb-8 text-white text-center">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-[-0.025em] mb-8 text-white text-center">
             Technical Skills
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -89,7 +88,7 @@ export default function SkillsPage() {
                           className="object-contain p-1.5"
                         />
                       ) : (
-                        <span className="font-display text-sm font-extrabold bg-gradient-to-r from-cyan-200 to-blue-300 bg-clip-text text-transparent">
+                        <span className="text-sm font-bold tracking-tight text-cyan-200">
                           {skill.shortCode}
                         </span>
                       )}
@@ -114,7 +113,7 @@ export default function SkillsPage() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mb-20"
         >
-          <h2 className="font-display text-xl md:text-2xl font-bold mb-6 text-white text-center">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-[-0.025em] mb-6 text-white text-center">
             Other Software Learnt
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -138,7 +137,7 @@ export default function SkillsPage() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mb-20"
         >
-          <h2 className="font-display text-2xl md:text-3xl font-bold mb-8 text-white text-center">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-[-0.025em] mb-8 text-white text-center">
             What I Can Do For You
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -151,7 +150,7 @@ export default function SkillsPage() {
               >
                 <GlassmorphismCard className="p-6 h-full">
                   <div className="text-2xl text-cyan-300 mb-4">{spec.icon}</div>
-                  <h3 className="font-display text-lg font-semibold mb-3 text-white">
+                  <h3 className="text-lg font-semibold tracking-[-0.015em] mb-3 text-white">
                     {spec.title}
                   </h3>
                   <p className="text-gray-400 text-sm mb-4 leading-relaxed">
@@ -181,7 +180,7 @@ export default function SkillsPage() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mb-20"
         >
-          <h2 className="font-display text-2xl md:text-3xl font-bold mb-8 text-white text-center">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-[-0.025em] mb-8 text-white text-center">
             Creative Focus
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -216,7 +215,7 @@ export default function SkillsPage() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="mb-20"
         >
-          <h2 className="font-display text-2xl md:text-3xl font-bold mb-8 text-white text-center">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-[-0.025em] mb-8 text-white text-center">
             Creative Pipeline
           </h2>
 

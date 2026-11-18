@@ -67,7 +67,7 @@ export default function AboutSection() {
               02 / About
             </span>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-[-0.03em] leading-[1.12] text-white mb-7">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-[-0.03em] leading-[1.1] text-white mb-7">
               The creative{" "}
               <span className="text-white/50">behind the frames.</span>
             </h2>

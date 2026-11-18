@@ -29,14 +29,12 @@ export default function AboutPage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <span className="font-timecode text-xs uppercase tracking-[0.26em] text-cyan-300 block mb-3">
+          <span className="font-timecode text-[11px] uppercase tracking-[0.22em] text-cyan-300/80 block mb-3">
             itsRishabh · Motion Designer · 2D · 3D · AI
           </span>
-          <h1 className="font-display text-4xl md:text-6xl font-extrabold mt-0 md:mt-4 mb-4 text-white tracking-tight">
-            THE CREATIVE{" "}
-            <span className="bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent">
-              BEHIND THE FRAMES.
-            </span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mt-0 md:mt-4 mb-4 text-white tracking-[-0.03em] leading-[1.08]">
+            The creative{" "}
+            <span className="text-white/50">behind the frames.</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto font-light">
             From pixels to possibilities—creating compelling motion through art,
@@ -72,13 +70,11 @@ export default function AboutPage() {
                       initial={{ opacity: 0, y: 10 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.2 }}
-                      className="font-display text-4xl md:text-6xl font-black text-white leading-tight tracking-tighter"
+                      className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-[1.05] tracking-[-0.03em]"
                     >
-                      RISHABH
+                      Rishabh
                       <br />
-                      <span className="bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent">
-                        MISHRA
-                      </span>
+                      <span className="text-white/60">Mishra</span>
                     </m.div>
                     <div className="h-1 w-16 md:w-20 bg-cyan-300 mt-4 rounded-full" />
                     <p className="text-gray-300 mt-4 text-xs md:text-sm font-medium tracking-wide uppercase">
@@ -105,7 +101,7 @@ export default function AboutPage() {
               header={
                 <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-[#050811] to-[#030408] border border-white/10 flex flex-col items-center justify-center relative overflow-hidden group-hover:border-cyan-300/35 transition-colors py-8 md:py-0">
                   <div className="absolute inset-0 bg-cyan-400/5 blur-3xl rounded-full" />
-                  <span className="font-display text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-white to-blue-300 z-10">
+                  <span className="text-2xl md:text-3xl font-bold tracking-[-0.02em] text-white z-10">
                     2D · 3D · AI
                   </span>
                   <div className="text-cyan-300/70 text-[11px] font-mono uppercase tracking-[0.2em] z-10 mt-2">

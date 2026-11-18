@@ -192,8 +192,8 @@ export default function ProjectCard({
               className="group/title block mb-2"
             >
               <h3
-                className={`font-display font-bold text-white transition-all duration-300 group-hover/title:text-cyan-200 group-hover/title:translate-x-0.5 line-clamp-2 leading-snug ${
-                  featured ? "text-2xl sm:text-3xl" : "text-lg sm:text-xl"
+                className={`font-semibold tracking-[-0.02em] text-white transition-all duration-300 group-hover/title:text-cyan-200 group-hover/title:translate-x-0.5 line-clamp-2 leading-snug ${
+                  featured ? "text-xl sm:text-2xl" : "text-base sm:text-lg"
                 }`}
               >
                 {project.video_title}
